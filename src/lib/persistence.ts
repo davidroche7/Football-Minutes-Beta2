@@ -63,13 +63,12 @@ if (USE_API_PERSISTENCE && isBrowser && !TEAM_ID) {
 interface ApiFixtureSummary {
   id: string;
   teamId: string;
-  seasonId: string | null;
+  seasonId?: string | null;
   opponent: string;
   fixtureDate: string;
+  kickoffTime: string | null;
   venueType: 'HOME' | 'AWAY' | 'NEUTRAL';
   status: 'DRAFT' | 'LOCKED' | 'FINAL';
-  lockedAt: string | null;
-  finalisedAt: string | null;
   createdAt: string;
   updatedAt: string;
   result?: {
@@ -102,21 +101,17 @@ interface ApiLineupSlot {
 
 interface ApiMatchAward {
   id: string;
-  playerId: string;
-  playerName: string;
+  playerId: string | null;
+  playerName: string | null;
   awardType: 'SCORER' | 'HONORABLE_MENTION' | 'ASSIST';
   count: number;
 }
 
 interface ApiMatchResultDetail {
-  id: string;
-  fixture_id: string;
   result_code: 'WIN' | 'DRAW' | 'LOSS' | 'ABANDONED' | 'VOID';
   team_goals: number | null;
   opponent_goals: number | null;
-  player_of_match_id: string | null;
   player_name: string | null;
-  notes: string | null;
 }
 
 interface ApiFixtureDetail {
@@ -125,14 +120,6 @@ interface ApiFixtureDetail {
   quarters: ApiLineupSlot[];
   result: ApiMatchResultDetail | null;
   awards: ApiMatchAward[];
-  stats: Array<{
-    player_id: string;
-    total_minutes: number;
-    goals: number;
-    assists: number;
-    is_player_of_match: boolean;
-    honorable_mentions: number;
-  }>;
 }
 
 const createId = () => {
@@ -616,6 +603,7 @@ const convertFixtureDetailToMatch = (detail: ApiFixtureDetail): MatchRecord => {
   return {
     id: detail.fixture.id,
     date: detail.fixture.fixtureDate,
+    time: detail.fixture.kickoffTime ?? undefined,
     opponent: detail.fixture.opponent,
     players,
     allocation,
@@ -627,6 +615,7 @@ const convertFixtureDetailToMatch = (detail: ApiFixtureDetail): MatchRecord => {
       playerIdLookup,
       venueType: detail.fixture.venueType,
       seasonId: detail.fixture.seasonId,
+      kickoffTime: detail.fixture.kickoffTime,
       status: detail.fixture.status,
     },
   };
