@@ -49,14 +49,14 @@ The default configuration works out of the box if you used the Docker command ab
 ### 4. Start Development Server
 
 ```bash
-npm run dev
+npm run dev      # Vite frontend only
+vercel dev       # (optional) run serverless API locally
 ```
 
-Today this spins up:
-- **Frontend** on http://localhost:3000 (Vite dev server)
-- **Backend** on http://localhost:3001 (Express dev server)
+- Vite dev server runs on http://localhost:3000.
+- `vercel dev` mirrors production `/api` functions and is recommended when testing persistence.
 
-The frontend proxies API requests to `/api/*`. Once the serverless migration is complete we will replace this step with `vercel dev`, so keep an eye on `REBUILD-TODO.md` for the cutover date.
+The old Express dev server was removed; see `docs/ADR-CLEANUP.md` for historical context.
 
 ## Project Structure
 

@@ -21,7 +21,7 @@
 - [ ] Update README + docs/ARCHITECTURE.md + DEPLOYMENT.md to match the new plan.
 
 ## 3. Codebase Cleanup
-- [ ] Delete unused Express server (`server/dev-server.ts`, `server/production-server.ts`, `server/services/**`) after migrating needed logic.
+- [x] Delete unused Express server (`server/dev-server.ts`, `server/production-server.ts`, `server/services/**`) after migrating needed logic (done in commit 065f2af; rely on `vercel dev` going forward).
 - [ ] Prune stale docs (`HANDOVER*.md`, legacy next-session notes) once content is folded into ADRs/to-do.
 - [ ] Simplify `package.json` scripts (remove build:backend, express-specific commands) while keeping current Vite build identical.
 - [ ] Ensure `npm run build` runs `tsc --noEmit`, `prisma generate`, and `vite build`.

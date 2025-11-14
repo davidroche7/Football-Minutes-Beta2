@@ -37,13 +37,13 @@ cp .env.example .env
 # Generate Prisma client (runs in postinstall too)
 npx prisma generate
 
-# (Temporary) start legacy dev servers
+# Start Vite dev server
 npm run dev
 
-# Upcoming flow: use vercel dev once API handlers move under /api
+# Optional: run `vercel dev` if you need local serverless endpoints
 ```
 
-The Vite dev server runs on **http://localhost:3000**. During the transition you may also need the Express dev server on **http://localhost:3001**; check `REBUILD-TODO.md` for progress on removing that dependency.
+The Vite dev server runs on **http://localhost:3000**. For API testing, use `vercel dev` in a separate terminal to run the serverless functions locally.
 
 ### Default Credentials
 
@@ -118,27 +118,20 @@ A deployment checklist will eventually include automated smoke tests hitting `/a
 ## 📁 Project Structure
 
 ```
-Football-Minutes-Beta/
-├── src/                   # Frontend React application
-│   ├── components/        # React components
-│   ├── lib/               # Client-side utilities
-│   └── config/            # Configuration files
-├── api/                   # Backend API functions (Vercel serverless)
-│   ├── _lib/              # Shared utilities
-│   ├── players/           # Player endpoints
-│   ├── fixtures/          # Fixture endpoints
-│   └── stats/             # Statistics endpoints
-├── server/                # Server code
-│   ├── dev-server.ts      # Express dev server
-│   ├── production-server.ts # Express production server
-│   ├── db/                # Database client
-│   └── services/          # Business logic
-├── docs/                  # Documentation
-│   ├── adr/               # Architecture Decision Records
-│   ├── DEVELOPMENT.md     # Development guide
-│   └── DEPLOYMENT.md      # Deployment guide
-├── scripts/               # Utility scripts
-└── types/                 # Shared TypeScript types
+Football-Minutes-Beta2/
+├── src/                 # React application
+│   ├── components/
+│   ├── lib/
+│   └── config/
+├── api/                 # Vercel serverless handlers (Prisma)
+│   ├── players.ts
+│   ├── fixtures.ts
+│   └── …
+├── server/db/prisma.ts  # Prisma client singleton (shared)
+├── prisma/              # Prisma schema & migrations
+├── data/seed/           # Canonical browser exports
+├── docs/                # README, ADRs, guides
+└── scripts/             # Tooling (imports, builds, etc.)
 ```
 
 ## How It Works
