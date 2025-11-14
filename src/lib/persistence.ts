@@ -698,13 +698,11 @@ const saveMatchApi = async (payload: SaveMatchPayload): Promise<MatchRecord> => 
     method: 'POST',
     body: {
       teamId,
-      seasonId: null,
       opponent: payload.opponent,
       fixtureDate: payload.date,
       kickoffTime: payload.time || null,
       venueType: mapVenueToApi(payload.result?.venue),
       squad,
-      notes: null,
     },
     actorId: payload.createdBy ?? undefined,
   });
@@ -730,6 +728,18 @@ const saveMatchApi = async (payload: SaveMatchPayload): Promise<MatchRecord> => 
     await apiRequest(`/fixtures/${fixture.id}/result`, {
       method: 'POST',
       body: resultPayload,
+      actorId: payload.createdBy ?? undefined,
+    });
+  } else {
+    await apiRequest(`/fixtures/${fixture.id}/result`, {
+      method: 'POST',
+      body: {
+        resultCode: 'VOID',
+        teamGoals: null,
+        opponentGoals: null,
+        playerOfMatchId: null,
+        awards: [],
+      },
       actorId: payload.createdBy ?? undefined,
     });
   }
