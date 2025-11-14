@@ -1,8 +1,8 @@
-# Football Minutes
+# Football Minutes (Beta2)
 
 > Comprehensive team management tool for tracking your football season - lineups, stats, and fair playing time distribution.
 
-A full-stack TypeScript application for managing football team rosters, generating fair playing time allocations, tracking match results, analyzing season statistics, and maintaining complete season records.
+This repository powers the refreshed “Football Minutes Beta2” deployment. It keeps the UI/UX you see at https://football-minutes-beta.vercel.app/ while rebuilding the backend around Prisma + Vercel serverless functions so match data persists consistently across browsers.
 
 ## ✨ Features
 
@@ -26,22 +26,24 @@ A full-stack TypeScript application for managing football team rosters, generati
 
 ```bash
 # Clone and install
-git clone https://github.com/davidroche7/Football-Minutes-Beta.git
-cd Football-Minutes-Beta
+git clone git@github.com:davidroche7/Football-Minutes-Beta2.git
+cd Football-Minutes-Beta2
 npm install
 
 # Set up environment
 cp .env.example .env
-# Edit .env with your database URL
+# Edit .env with your database URL and session secrets
 
-# Run database migrations
-npm run db:migrate
+# Generate Prisma client (runs in postinstall too)
+npx prisma generate
 
-# Start development servers (frontend + backend)
+# (Temporary) start legacy dev servers
 npm run dev
+
+# Upcoming flow: use vercel dev once API handlers move under /api
 ```
 
-The app will be available at **http://localhost:3000**
+The Vite dev server runs on **http://localhost:3000**. During the transition you may also need the Express dev server on **http://localhost:3001**; check `REBUILD-TODO.md` for progress on removing that dependency.
 
 ### Default Credentials
 
@@ -57,25 +59,28 @@ Two accounts are pre-configured:
 - **[Architecture Decision Records](./docs/adr/)** - Key architectural decisions and rationale
 - **[API Documentation](./docs/api-surface-v2.md)** - REST API endpoints reference
 - **[Security Guide](./docs/security.md)** - Authentication, CSRF, and session management
+- **Seed Snapshots**: See `data/seed/README.md` + `docs/adr/003-seed-data-preservation.md` for how we preserve the live dataset
 
 ## 🏗️ Architecture
 
 ```
-Frontend (Vite + React)       Backend (Express + Vercel Functions)
-     :3000                              :3001
-┌──────────────┐              ┌────────────────────────┐
-│              │──── /api ────▶│  Express Dev Server    │
-│  React SPA   │   (proxy)     │  ├─ Health checks      │
-│  TypeScript  │               │  ├─ API routes         │
-│  Tailwind    │               │  └─ Vercel fn wrapper  │
-└──────────────┘              └────────────────────────┘
-                                        │
-                                        ▼
-                              ┌────────────────────────┐
-                              │  PostgreSQL Database   │
-                              │  (Docker / Cloud)      │
-                              └────────────────────────┘
+## 🌱 Seed Data & Migration
+
+- The latest canonical export lives in `data/seed/football-minutes-seed-2025-11-14.json` (7 matches, 15 players).
+- Update `data/seed/seed-manifest.json` whenever you capture a fresh export via `/migrate-data.html`.
+- Planned scripts (`scripts/db/seed-from-json.ts`) will hydrate Postgres via Prisma migrations; until then, never delete the seed files.
+
+Frontend (Vite + React)     API Layer (Vercel Functions)      Database
+┌────────────────────────┐  ┌─────────────────────────────┐   ┌──────────────┐
+│ React SPA (TypeScript) │──▶ players.ts / fixtures.ts ...│──▶│ PostgreSQL   │
+│ Tailwind, Vitest       │  │ Prisma Client per function  │   │ (Neon/Vercel)│
+└────────────────────────┘  └─────────────────────────────┘   └──────────────┘
+             ▲                          ▲
+             │                          │
+     Local dev via Vite        Seed data ↔ Prisma migrations
 ```
+
+We are in the middle of migrating from an Express wrapper (`server/dev-server.ts`, `server/services/**`) to native serverless handlers described in [ADR 004](./docs/adr/004-serverless-prisma-vercel.md). See `docs/ADR-CLEANUP.md` for the list of legacy assets scheduled for removal.
 
 ### Tech Stack
 
@@ -85,12 +90,11 @@ Frontend (Vite + React)       Backend (Express + Vercel Functions)
 - Tailwind CSS
 - Vitest (testing)
 
-**Backend**
+**Backend (target state)**
 - Node.js 20 + TypeScript
-- Express.js (dev + production)
-- Vercel Serverless Functions (production option)
-- PostgreSQL + pg driver
-- Zod (validation)
+- Prisma ORM + PostgreSQL
+- Vercel Serverless Functions (`api/**/*.ts`)
+- Zod (validation helpers)
 
 **DevOps**
 - Docker support
@@ -100,22 +104,16 @@ Frontend (Vite + React)       Backend (Express + Vercel Functions)
 
 ## 🧪 Testing & Quality
 
+Before committing or deploying, run the full suite:
+
 ```bash
-# Run tests
-npm test
-
-# Run tests with coverage
-npm run test:coverage
-
-# Type check
-npm run typecheck
-
-# Lint
 npm run lint
-
-# Format code
-npm run format
+npm run typecheck
+npm run test -- --run
+npm run test:coverage   # optional
 ```
+
+A deployment checklist will eventually include automated smoke tests hitting `/api/players` and `/api/fixtures` to ensure Prisma bundles correctly on Vercel.
 
 ## 📁 Project Structure
 
@@ -237,5 +235,3 @@ MIT - see [LICENSE](./LICENSE) file for details
 - [Security Guide](./docs/security.md) - Authentication and security model
 - [Data Model](./docs/data-model-v2.md) - Database schema and relationships
 # Trigger rebuild with correct env vars
-
-

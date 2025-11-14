@@ -1,6 +1,6 @@
 # Development Guide
 
-This guide covers local development setup and workflows for the Football Minutes application.
+This guide covers local development setup and workflows for Football Minutes **Beta2**. The goal is to mirror the UX deployed at https://football-minutes-beta.vercel.app/ while migrating backend logic to Prisma-powered Vercel functions (see `docs/adr/004-serverless-prisma-vercel.md` and `REBUILD-TODO.md`).
 
 ## Prerequisites
 
@@ -13,8 +13,8 @@ This guide covers local development setup and workflows for the Football Minutes
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/davidroche7/Football-Minutes-Beta.git
-cd Football-Minutes-Beta
+git clone git@github.com:davidroche7/Football-Minutes-Beta2.git
+cd Football-Minutes-Beta2
 npm install
 ```
 
@@ -52,11 +52,11 @@ The default configuration works out of the box if you used the Docker command ab
 npm run dev
 ```
 
-This starts:
+Today this spins up:
 - **Frontend** on http://localhost:3000 (Vite dev server)
 - **Backend** on http://localhost:3001 (Express dev server)
 
-The frontend automatically proxies API requests to the backend.
+The frontend proxies API requests to `/api/*`. Once the serverless migration is complete we will replace this step with `vercel dev`, so keep an eye on `REBUILD-TODO.md` for the cutover date.
 
 ## Project Structure
 

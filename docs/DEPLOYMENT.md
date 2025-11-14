@@ -1,31 +1,98 @@
-# Deployment Guide
+# Deployment Guide (Beta2)
 
-This guide covers deploying the Football Minutes application to various platforms.
-
-## Deployment Architecture
-
-The application supports **multiple deployment targets**:
-
-| Platform | Method | Best For |
-|----------|--------|----------|
-| **Vercel** | Serverless Functions | Zero-config, auto-scaling, global CDN |
-| **Railway** | Express Server | Easy setup, PostgreSQL included |
-| **Heroku** | Express Server | Traditional PaaS, well-documented |
-| **Docker** | Container | Self-hosted, full control |
-| **VPS** | Node.js + PM2 | Self-hosted, cost-effective |
+Football Minutes Beta2 targets a single deployment platform: **Vercel**. The goal is to bundle the React SPA and Prisma-powered serverless API in one project so every push to `main` can ship with confidence.
 
 ## Pre-Deployment Checklist
 
-- [ ] Database migrations run successfully
-- [ ] Tests pass: `npm test -- --run`
-- [ ] TypeScript compiles: `npm run typecheck`
-- [ ] Linter passes: `npm run lint`
-- [ ] Environment variables configured
-- [ ] Session secret generated (32+ chars random string)
+Run these locally (CI should mirror the same commands):
 
----
+- [ ] `npm run lint`
+- [ ] `npm run typecheck`
+- [ ] `npm run test -- --run`
+- [ ] `npm run build` (ensures Prisma generates + Vite bundles)
+- [ ] Seed snapshot up to date (`data/seed/seed-manifest.json`)
+- [ ] `vercel env ls` shows all required variables (see below)
 
-## Vercel Deployment
+## Vercel Deployment Overview
+
+```
+Vite build  ─┐
+             ├── vercel build → static assets + api/*.ts → serverless functions
+Prisma gen ──┘
+```
+
+### Required Files
+
+- `vercel.json` – must include:
+  ```json
+  {
+    "buildCommand": "npm run build",
+    "functions": {
+      "api/**/*.ts": {
+        "includeFiles": "node_modules/.prisma/**",
+        "memory": 1024,
+        "maxDuration": 10
+      }
+    }
+  }
+  ```
+- `api/**/*.ts` – individual handlers importing Prisma.
+- `data/seed/*` – referenced during migrations/seed scripts (not bundled in deploy).
+
+### Environment Variables
+
+Configure in the Vercel dashboard (Production + Preview + Development):
+
+| Variable | Description |
+|----------|-------------|
+| `DATABASE_URL` | Postgres connection string (Neon/Vercel Postgres). |
+| `FFM_SESSION_SECRET` | Backend session secret (32+ chars). |
+| `VITE_USE_API` | `true` for production. |
+| `VITE_API_BASE_URL` | `/api` (same origin). |
+| `VITE_TEAM_ID` | UUID of the current team (see seed manifest). |
+| `VITE_SESSION_SECRET` | Must match `FFM_SESSION_SECRET`. |
+| `VITE_ACTOR_ROLES` | e.g., `coach,analyst`. |
+
+Use `vercel env pull` / `vercel env push` for local sync when needed.
+
+### Deployment Steps
+
+```bash
+# 1. Build locally (optional but recommended)
+npm run build
+
+# 2. Preview deployment
+vercel --prebuilt   # or just `vercel` and follow prompts
+
+# 3. Production deployment
+vercel --prod
+```
+
+### Post-Deploy Verification
+
+1. `vercel logs football-minutes-beta2 --since=10m` (check for Prisma errors).
+2. Hit key endpoints:
+   ```bash
+   curl -fsS https://<your-domain>/api/players\?teamId=<TEAM_ID>
+   curl -fsS https://<your-domain>/api/fixtures\?teamId=<TEAM_ID>
+   ```
+3. Open the app, log in, and confirm “Persistence Mode: API backend”.
+4. Add a throwaway player, open an incognito tab, verify the player exists, then remove it.
+5. Update `data/seed/seed-manifest.json` if new canonical data should be captured.
+
+## Local Preview with Vercel
+
+Once the legacy Express wrapper is removed, prefer:
+
+```bash
+vercel dev
+```
+
+This runs Vite for the frontend and your serverless functions locally, matching production behavior. Until then, `npm run dev` still spins up the older Express proxy.
+
+## Alternative Platforms
+
+Railway/Heroku/Docker support existed in earlier revisions but will be revisited after the Vercel-first rebuild stabilizes. See `docs/ADR-CLEANUP.md` before relying on those scripts—they may be removed entirely.
 
 ### Setup
 
