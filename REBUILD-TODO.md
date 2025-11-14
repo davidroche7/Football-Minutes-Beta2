@@ -27,8 +27,12 @@
 - [ ] Ensure `npm run build` runs `tsc --noEmit`, `prisma generate`, and `vite build`.
 
 ## 4. Persistence Rebuild
-- [ ] Finalize Prisma schema aligned with required UI data; run `npx prisma migrate dev`.
-- [ ] Write seed import script (`scripts/db/seed-from-json.ts`) that loads `data/seed/*.json` into Postgres.
+- [ ] Finalize Prisma schema aligned with the seed JSON (`matches[]`, `playersData[]`):
+  - [ ] `Player` table with display name, squad number, preferred positions, removedAt.
+  - [ ] `Match` table with opponent, fixtureDate, allocation JSON, result JSON, editHistory reference (if needed).
+  - [ ] Consider lookup tables for awards/stats if we want structured queries.
+  - [ ] Run `npx prisma migrate dev` and check in the migration.
+- [ ] Write seed import script (`scripts/db/seed-from-json.ts`) that loads `data/seed/*.json` into Postgres (idempotent + checksum logged).
 - [ ] Implement Vercel functions for:
   - [ ] `GET/POST /players`, `PATCH/DELETE /players/:id`, `POST /players/:id/restore`.
   - [ ] `GET/POST /fixtures`, `PATCH/DELETE /fixtures/:id`, `PUT /fixtures/:id/lineup`, `PUT /fixtures/:id/result`.
