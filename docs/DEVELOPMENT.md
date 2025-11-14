@@ -149,6 +149,20 @@ npm run test:ui
 
 # Generate coverage report
 npm run test:coverage
+
+# API-only tests (Prisma serverless handlers)
+npx vitest run api/*.test.ts
+```
+
+### Data Seeding
+
+```bash
+# Reset DB (drops all tables)
+npx prisma migrate reset --force --skip-seed
+
+# Apply schema + load canonical seed
+npx prisma migrate dev --name init_beta2
+npm run db:seed -- data/seed/football-minutes-seed-2025-11-14.json
 ```
 
 ## Environment Variables

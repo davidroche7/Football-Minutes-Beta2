@@ -111,6 +111,7 @@ npm run lint
 npm run typecheck
 npm run test -- --run
 npm run test:coverage   # optional
+npx vitest run api/*.test.ts  # focused serverless API tests
 ```
 
 A deployment checklist will eventually include automated smoke tests hitting `/api/players` and `/api/fixtures` to ensure Prisma bundles correctly on Vercel.
