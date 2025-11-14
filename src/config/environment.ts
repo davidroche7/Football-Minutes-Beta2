@@ -11,7 +11,8 @@ const toStringOrNull = (value: string | undefined): string | null => {
 };
 
 export const USE_API_PERSISTENCE = toBoolean(import.meta.env.VITE_USE_API ?? undefined, false);
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? '/api';
+const rawApiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+export const API_BASE_URL = rawApiBaseUrl && rawApiBaseUrl.length > 0 ? rawApiBaseUrl : '/api';
 export const TEAM_ID = toStringOrNull(import.meta.env.VITE_TEAM_ID ?? undefined);
 const SESSION_SECRET_RAW = toStringOrNull(import.meta.env.VITE_SESSION_SECRET ?? undefined);
 export const SESSION_SECRET = SESSION_SECRET_RAW ?? 'dev-session-secret';
