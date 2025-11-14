@@ -137,6 +137,7 @@ async function main() {
         id: match.id,
         teamId,
         fixtureDate,
+        kickoffTime: match.time ?? null,
         opponent: match.opponent || 'Unknown',
         venue: resolveVenue(match.result?.venue),
         status: resolveStatus(match),
