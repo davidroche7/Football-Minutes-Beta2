@@ -1,0 +1,11 @@
+{
+  "snapshots": [
+    {
+      "file": "football-minutes-seed-2025-11-14.json",
+      "capturedAt": "2025-11-14T00:00:00Z",
+      "matchCount": 7,
+      "playerCount": 15,
+      "notes": "Exported via migrate-data.html before beta2 rebuild."
+    }
+  ]
+}

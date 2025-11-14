@@ -1,0 +1,1914 @@
+{
+  "matches": [
+    {
+      "id": "match_1762216006063_2f40eb37be9eb",
+      "date": "2025-09-19",
+      "opponent": "Melbourne",
+      "players": [
+        "Charlotte",
+        "Keira",
+        "Lottie W",
+        "Nicole C",
+        "Thea",
+        "Willow"
+      ],
+      "allocation": {
+        "quarters": [
+          {
+            "quarter": 1,
+            "slots": [
+              {
+                "player": "Keira",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie W",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Willow",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Charlotte",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 2,
+            "slots": [
+              {
+                "player": "Lottie W",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Keira",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole C",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 3,
+            "slots": [
+              {
+                "player": "Charlotte",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Keira",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie W",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 4,
+            "slots": [
+              {
+                "player": "Thea",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie W",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole C",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "Keira": 30,
+          "Nicole C": 30,
+          "Lottie W": 40,
+          "Willow": 30,
+          "Charlotte": 40,
+          "Thea": 30
+        }
+      },
+      "createdAt": "2025-11-04T00:26:46.063Z",
+      "lastModifiedAt": "2025-11-07T09:31:20.034Z",
+      "editHistory": [
+        {
+          "id": "d362c7d9-e45f-493c-bf2b-3e9d9c34bfb5",
+          "field": "result.result",
+          "previousValue": "Lost",
+          "newValue": "",
+          "editedAt": "2025-11-07T09:31:20.034Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "d4a34866-e76e-481a-9a0d-ca3da42cb201",
+          "field": "result.scorers",
+          "previousValue": "Nicole C, Charlotte",
+          "newValue": "Nicole C, Charlotte, Nicole C",
+          "editedAt": "2025-11-07T09:31:20.034Z",
+          "editedBy": "coach"
+        }
+      ],
+      "result": {
+        "venue": "Away",
+        "goalsFor": 3,
+        "goalsAgainst": 10,
+        "playerOfMatch": "Charlotte",
+        "honorableMentions": [
+          "Nicole C"
+        ],
+        "scorers": [
+          "Nicole C",
+          "Charlotte",
+          "Nicole C"
+        ]
+      }
+    },
+    {
+      "id": "match_1762216006064_6e65d27006e27",
+      "date": "2025-09-26",
+      "opponent": "Histon",
+      "players": [
+        "Charlotte",
+        "Flo",
+        "Isla",
+        "Keira",
+        "Lottie B",
+        "Nicole C",
+        "Nicole H",
+        "Savannah",
+        "Thea",
+        "Willow"
+      ],
+      "allocation": {
+        "quarters": [
+          {
+            "quarter": 1,
+            "slots": [
+              {
+                "player": "Flo",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie B",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Willow",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole C",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 2,
+            "slots": [
+              {
+                "player": "Keira",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole H",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Savannah",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Isla",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 3,
+            "slots": [
+              {
+                "player": "Charlotte",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie B",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Flo",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 4,
+            "slots": [
+              {
+                "player": "Savannah",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole H",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Keira",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Isla",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "Flo": 20,
+          "Charlotte": 20,
+          "Lottie B": 20,
+          "Willow": 20,
+          "Nicole C": 20,
+          "Keira": 20,
+          "Nicole H": 20,
+          "Savannah": 20,
+          "Isla": 20,
+          "Thea": 20
+        }
+      },
+      "createdAt": "2025-11-04T00:26:46.064Z",
+      "lastModifiedAt": "2025-11-04T00:26:46.064Z",
+      "editHistory": [],
+      "result": {
+        "venue": "Home",
+        "result": "Lost",
+        "goalsFor": 0,
+        "goalsAgainst": 5,
+        "playerOfMatch": "Nicole H",
+        "honorableMentions": [
+          "Willow",
+          "Lottie B"
+        ],
+        "scorers": []
+      }
+    },
+    {
+      "id": "match_1762216006065_6504ee4843ef08",
+      "date": "2025-10-03",
+      "opponent": "Sawston Green",
+      "players": [
+        "Charlotte",
+        "Emily",
+        "Isla",
+        "Keira",
+        "Lottie B",
+        "Lottie W",
+        "Nicole C",
+        "Nicole H",
+        "Renee",
+        "Renne",
+        "Thea",
+        "Willow"
+      ],
+      "allocation": {
+        "quarters": [
+          {
+            "quarter": 1,
+            "slots": [
+              {
+                "player": "Nicole H",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Isla",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie B",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 2,
+            "slots": [
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Renee",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie W",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 3,
+            "slots": [
+              {
+                "player": "Emily",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole H",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie W",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Keira",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 4,
+            "slots": [
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie B",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Isla",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "Nicole H": 20,
+          "Charlotte": 10,
+          "Isla": 20,
+          "Lottie B": 20,
+          "Emily": 20,
+          "Nicole C": 20,
+          "Willow": 20,
+          "Renee": 10,
+          "Lottie W": 20,
+          "Keira": 10,
+          "Thea": 10
+        }
+      },
+      "createdAt": "2025-11-04T00:26:46.065Z",
+      "lastModifiedAt": "2025-11-07T09:31:34.303Z",
+      "editHistory": [
+        {
+          "id": "1660ea5e-9504-4b15-b961-ac7d1149ba1f",
+          "field": "result.result",
+          "previousValue": "Lost",
+          "newValue": "",
+          "editedAt": "2025-11-07T09:31:34.303Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "96c8c67f-c437-4750-ab6c-d02784bc6e9a",
+          "field": "result.scorers",
+          "previousValue": "Lottie W",
+          "newValue": "Lottie W, Lottie W, Lottie W",
+          "editedAt": "2025-11-07T09:31:34.303Z",
+          "editedBy": "coach"
+        }
+      ],
+      "result": {
+        "venue": "Away",
+        "goalsFor": 3,
+        "goalsAgainst": 8,
+        "playerOfMatch": "Lottie W",
+        "honorableMentions": [
+          "Thea"
+        ],
+        "scorers": [
+          "Lottie W",
+          "Lottie W",
+          "Lottie W"
+        ]
+      }
+    },
+    {
+      "id": "match_1762216006065_4ba9c68191fe2",
+      "date": "2025-10-10",
+      "opponent": "Isleham U7",
+      "players": [
+        "Charlotte",
+        "Emily",
+        "Isla",
+        "Keira",
+        "Lottie B",
+        "Lottie W",
+        "Nicole C",
+        "Renee",
+        "Savannah",
+        "Thea",
+        "Willow"
+      ],
+      "allocation": {
+        "quarters": [
+          {
+            "quarter": 1,
+            "slots": [
+              {
+                "player": "Willow",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Savannah",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Keira",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 2,
+            "slots": [
+              {
+                "player": "Lottie W",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Isla",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Renee",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 3,
+            "slots": [
+              {
+                "player": "Nicole C",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie W",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Isla",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          },
+          {
+            "quarter": 4,
+            "slots": [
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie B",
+                "position": "DEF",
+                "minutes": 10
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 10
+              },
+              {
+                "player": "Renee",
+                "position": "ATT",
+                "minutes": 10
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "Willow": 20,
+          "Nicole C": 20,
+          "Savannah": 10,
+          "Thea": 20,
+          "Keira": 10,
+          "Lottie W": 20,
+          "Charlotte": 20,
+          "Isla": 20,
+          "Renee": 20,
+          "Lottie B": 10,
+          "Emily": 10
+        }
+      },
+      "createdAt": "2025-11-04T00:26:46.065Z",
+      "lastModifiedAt": "2025-11-07T09:32:08.930Z",
+      "editHistory": [
+        {
+          "id": "bcf54669-418a-4c99-9d2a-81f547a292fe",
+          "field": "result.scorers",
+          "previousValue": "Isla, Lottie W, Charlotte, Keira",
+          "newValue": "Isla, Lottie W, Charlotte, Keira, Lottie W, Lottie W, Lottie W",
+          "editedAt": "2025-11-07T09:32:08.930Z",
+          "editedBy": "coach"
+        }
+      ],
+      "result": {
+        "venue": "Home",
+        "result": "Win",
+        "goalsFor": 7,
+        "goalsAgainst": 4,
+        "playerOfMatch": "Isla",
+        "honorableMentions": [
+          "Savannah"
+        ],
+        "scorers": [
+          "Isla",
+          "Lottie W",
+          "Charlotte",
+          "Keira",
+          "Lottie W",
+          "Lottie W",
+          "Lottie W"
+        ]
+      }
+    },
+    {
+      "date": "2025-10-18",
+      "time": "09:30",
+      "opponent": "Sawston",
+      "players": [
+        "Charlotte",
+        "Emily",
+        "Lottie B",
+        "Lottie W",
+        "Nicole C",
+        "Nicole H",
+        "Renee",
+        "Thea",
+        "Willow"
+      ],
+      "allocation": {
+        "quarters": [
+          {
+            "quarter": 1,
+            "slots": [
+              {
+                "player": "Charlotte",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Renee",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie W",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Nicole H",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Lottie B",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          },
+          {
+            "quarter": 2,
+            "slots": [
+              {
+                "player": "Thea",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie B",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Willow",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Nicole H",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Lottie W",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Renee",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          },
+          {
+            "quarter": 3,
+            "slots": [
+              {
+                "player": "Willow",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie W",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Renee",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Nicole C",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Nicole H",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Lottie B",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          },
+          {
+            "quarter": 4,
+            "slots": [
+              {
+                "player": "Renee",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie W",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie B",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Nicole H",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "Charlotte": 25,
+          "Thea": 25,
+          "Willow": 25,
+          "Renee": 25,
+          "Lottie W": 20,
+          "Nicole C": 20,
+          "Nicole H": 20,
+          "Emily": 20,
+          "Lottie B": 20
+        },
+        "warnings": []
+      },
+      "result": {
+        "venue": "Away",
+        "result": "Win",
+        "goalsFor": 2,
+        "goalsAgainst": 8,
+        "playerOfMatch": "Nicole C",
+        "honorableMentions": [
+          "Thea"
+        ],
+        "scorers": [
+          "Lottie W",
+          "Lottie W",
+          "Nicole C",
+          "Nicole C",
+          "Willow",
+          "Lottie W",
+          "Lottie W",
+          "Lottie W"
+        ]
+      },
+      "createdBy": "coach",
+      "id": "5db2c698-974d-4f23-a264-bd7d3d9993d7",
+      "createdAt": "2025-11-07T09:08:55.461Z",
+      "lastModifiedAt": "2025-11-07T13:09:12.390Z",
+      "editHistory": [
+        {
+          "id": "c84ea12d-00df-48ef-9999-051c5979a4ae",
+          "field": "allocation",
+          "previousValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Charlotte\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole H\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Renee\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Emily\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole H\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Renee\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Lottie B\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole H\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Renee\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Nicole C\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole H\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Renee\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Charlotte\":25,\"Emily\":25,\"Lottie B\":25,\"Nicole C\":25,\"Lottie W\":20,\"Nicole H\":20,\"Renee\":20,\"Thea\":20,\"Willow\":20},\"warnings\":[]}",
+          "newValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Charlotte\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Renee\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole H\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Thea\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole H\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Renee\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Willow\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Renee\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole H\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Renee\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole H\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Charlotte\":25,\"Thea\":25,\"Willow\":25,\"Renee\":25,\"Lottie W\":20,\"Nicole C\":20,\"Nicole H\":20,\"Emily\":20,\"Lottie B\":20},\"warnings\":[]}",
+          "editedAt": "2025-11-07T09:18:00.673Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "4362c624-dfdf-4765-99e5-4da982e45c0c",
+          "field": "result.result",
+          "previousValue": "",
+          "newValue": "Win",
+          "editedAt": "2025-11-07T09:19:20.887Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "326eb4a1-64c8-448b-827f-22b1a471f322",
+          "field": "result.goalsFor",
+          "previousValue": "",
+          "newValue": "2",
+          "editedAt": "2025-11-07T09:19:20.887Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "fceef39e-d85a-48fe-b928-d8508c24834d",
+          "field": "result.goalsAgainst",
+          "previousValue": "",
+          "newValue": "8",
+          "editedAt": "2025-11-07T09:19:20.887Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "66045bc1-099b-4591-8d77-4007de72ada7",
+          "field": "result.scorers",
+          "previousValue": "",
+          "newValue": "Lottie W (5), Nicole C (2), Willow",
+          "editedAt": "2025-11-07T09:19:20.887Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "8d8e8444-9e1d-4e79-b878-52fc7e0c3087",
+          "field": "result.scorers",
+          "previousValue": "Lottie W (5), Nicole C (2), Willow",
+          "newValue": "Lottie W, Lottie W, Nicole C, Nicole C, Willow, Lottie W, Lottie W, Lottie W",
+          "editedAt": "2025-11-07T09:30:56.386Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "718b6b64-9309-41a7-9234-5cb5e031124a",
+          "field": "result.playerOfMatch",
+          "previousValue": "",
+          "newValue": "Nicole C",
+          "editedAt": "2025-11-07T13:09:12.390Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "b6d3b617-b39b-4ed1-8fd5-ec9c9d7bc3be",
+          "field": "result.honorableMentions",
+          "previousValue": "",
+          "newValue": "Thea",
+          "editedAt": "2025-11-07T13:09:12.390Z",
+          "editedBy": "coach"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-25",
+      "time": "10:10",
+      "opponent": "Newmarket",
+      "players": [
+        "Emily",
+        "Flo",
+        "Imogen",
+        "Isla",
+        "Keira",
+        "Lottie B",
+        "Lottie W",
+        "Nicole C",
+        "Renee",
+        "Savannah",
+        "Thea",
+        "Willow"
+      ],
+      "allocation": {
+        "quarters": [
+          {
+            "quarter": 1,
+            "slots": [
+              {
+                "player": "Nicole C",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Isla",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Renee",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Keira",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Imogen",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Savannah",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          },
+          {
+            "quarter": 2,
+            "slots": [
+              {
+                "player": "Lottie B",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Savannah",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Flo",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Renee",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie W",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Imogen",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Isla",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          },
+          {
+            "quarter": 3,
+            "slots": [
+              {
+                "player": "Lottie W",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie B",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Keira",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Flo",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Savannah",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          },
+          {
+            "quarter": 4,
+            "slots": [
+              {
+                "player": "Emily",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie B",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie W",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Imogen",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Renee",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Isla",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Keira",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Flo",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "Nicole C": 20,
+          "Willow": 15,
+          "Isla": 15,
+          "Renee": 15,
+          "Keira": 15,
+          "Thea": 15,
+          "Imogen": 15,
+          "Emily": 20,
+          "Savannah": 15,
+          "Lottie B": 20,
+          "Flo": 15,
+          "Lottie W": 20
+        },
+        "warnings": []
+      },
+      "result": {
+        "venue": "Home",
+        "result": "Loss",
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "playerOfMatch": "Emily",
+        "scorers": [
+          "Nicole C"
+        ]
+      },
+      "createdBy": "coach",
+      "id": "2ce02db8-4c39-4a5c-83c4-3fe02215c518",
+      "createdAt": "2025-11-07T09:25:45.007Z",
+      "lastModifiedAt": "2025-11-07T14:51:58.371Z",
+      "editHistory": [
+        {
+          "id": "65b81c90-f9de-41d6-bf2d-84f5cefe794b",
+          "field": "result.result",
+          "previousValue": "",
+          "newValue": "Loss",
+          "editedAt": "2025-11-07T09:28:45.495Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "b5055c41-d3f0-4ad0-b3af-7990679238be",
+          "field": "result.goalsFor",
+          "previousValue": "",
+          "newValue": "1",
+          "editedAt": "2025-11-07T09:28:45.495Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "3b92e2d1-bc02-4db9-aadb-9c45509867f0",
+          "field": "result.goalsAgainst",
+          "previousValue": "",
+          "newValue": "3",
+          "editedAt": "2025-11-07T09:28:45.495Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "9022c284-ece0-467d-8bbb-73f8c59b0dcf",
+          "field": "result.scorers",
+          "previousValue": "",
+          "newValue": "Nicole C",
+          "editedAt": "2025-11-07T09:28:45.495Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "974893fc-591d-493b-a6f6-e4beb85b5a00",
+          "field": "allocation",
+          "previousValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Flo\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Imogen\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Renee\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Savannah\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Thea\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Flo\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Imogen\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie B\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Renee\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Savannah\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Imogen\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Nicole C\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Renee\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Flo\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Savannah\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Imogen\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Flo\":20,\"Imogen\":20,\"Isla\":20,\"Lottie B\":20,\"Lottie W\":15,\"Nicole C\":20,\"Keira\":20,\"Renee\":20,\"Savannah\":15,\"Thea\":15,\"Willow\":15},\"warnings\":[]}",
+          "newValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Nicole C\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Renee\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Imogen\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Savannah\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Lottie B\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Savannah\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Flo\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Renee\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Imogen\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Isla\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Lottie W\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Lottie B\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Flo\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Savannah\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Emily\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Lottie B\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Imogen\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Renee\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Flo\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Nicole C\":20,\"Willow\":15,\"Isla\":15,\"Renee\":15,\"Keira\":15,\"Thea\":15,\"Imogen\":15,\"Emily\":20,\"Savannah\":15,\"Lottie B\":20,\"Flo\":15,\"Lottie W\":20},\"warnings\":[]}",
+          "editedAt": "2025-11-07T09:28:45.495Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "b5d259da-3f0f-4bd2-9a9d-d6023c803aa4",
+          "field": "result.playerOfMatch",
+          "previousValue": "",
+          "newValue": "Emily",
+          "editedAt": "2025-11-07T14:51:58.371Z",
+          "editedBy": "coach"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-08",
+      "time": "10:10",
+      "opponent": "Cambourne",
+      "players": [
+        "Charlotte",
+        "Emily",
+        "Isla",
+        "Keira",
+        "Lottie B",
+        "Lottie W",
+        "Nicole C",
+        "Thea",
+        "Willow"
+      ],
+      "allocation": {
+        "quarters": [
+          {
+            "quarter": 1,
+            "slots": [
+              {
+                "player": "Willow",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Isla",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie W",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie B",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Keira",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Nicole C",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          },
+          {
+            "quarter": 2,
+            "slots": [
+              {
+                "player": "Keira",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Lottie B",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Charlotte",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Emily",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie W",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Isla",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Thea",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Nicole C",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          },
+          {
+            "quarter": 3,
+            "slots": [
+              {
+                "player": "Isla",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Keira",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie B",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Lottie W",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Thea",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Emily",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Charlotte",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Willow",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          },
+          {
+            "quarter": 4,
+            "slots": [
+              {
+                "player": "Lottie B",
+                "position": "GK",
+                "minutes": 10
+              },
+              {
+                "player": "Charlotte",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Nicole C",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Keira",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Isla",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "first"
+              },
+              {
+                "player": "Emily",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Willow",
+                "position": "DEF",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Lottie W",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              },
+              {
+                "player": "Thea",
+                "position": "ATT",
+                "minutes": 5,
+                "wave": "second"
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "Willow": 25,
+          "Charlotte": 20,
+          "Isla": 25,
+          "Lottie W": 20,
+          "Lottie B": 25,
+          "Thea": 20,
+          "Keira": 25,
+          "Nicole C": 20,
+          "Emily": 20
+        },
+        "warnings": []
+      },
+      "result": {
+        "venue": "Home",
+        "result": "Win",
+        "goalsFor": 23,
+        "goalsAgainst": 2,
+        "playerOfMatch": "Keira",
+        "honorableMentions": [
+          "Thea"
+        ],
+        "scorers": [
+          "Lottie W",
+          "Nicole C",
+          "Lottie W",
+          "Nicole C",
+          "Lottie W",
+          "Nicole C",
+          "Nicole C",
+          "Nicole C",
+          "Charlotte",
+          "Lottie W",
+          "Lottie W",
+          "Willow",
+          "Nicole C",
+          "Willow",
+          "Lottie W",
+          "Lottie W",
+          "Lottie W",
+          "Lottie W",
+          "Lottie W",
+          "Nicole C",
+          "Nicole C",
+          "Nicole C",
+          "Thea"
+        ]
+      },
+      "createdBy": "coach",
+      "id": "4f211f4e-1045-49b4-ab45-4731875434dd",
+      "createdAt": "2025-11-07T10:15:11.233Z",
+      "lastModifiedAt": "2025-11-09T12:43:28.779Z",
+      "editHistory": [
+        {
+          "id": "9c0f3f1c-fa9b-4dc9-aabb-191cf433d47c",
+          "field": "allocation",
+          "previousValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Emily\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Charlotte\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Lottie W\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Lottie B\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Emily\":25,\"Charlotte\":25,\"Lottie W\":25,\"Lottie B\":25,\"Keira\":20,\"Isla\":20,\"Nicole C\":20,\"Willow\":20,\"Thea\":20},\"warnings\":[]}",
+          "newValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Willow\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Keira\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Lottie W\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Lottie B\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Willow\":25,\"Charlotte\":20,\"Isla\":20,\"Keira\":25,\"Lottie B\":25,\"Thea\":20,\"Nicole C\":20,\"Lottie W\":25,\"Emily\":20},\"warnings\":[]}",
+          "editedAt": "2025-11-07T10:19:35.961Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "aa0b6dc0-8166-4c99-adf5-7f8ed2c20641",
+          "field": "allocation",
+          "previousValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Willow\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Keira\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Lottie W\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Lottie B\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Willow\":25,\"Charlotte\":20,\"Isla\":20,\"Keira\":25,\"Lottie B\":25,\"Thea\":20,\"Nicole C\":20,\"Lottie W\":25,\"Emily\":20},\"warnings\":[]}",
+          "newValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Willow\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Keira\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Lottie B\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Isla\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Lottie B\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Willow\":25,\"Charlotte\":20,\"Isla\":25,\"Keira\":25,\"Lottie B\":25,\"Thea\":20,\"Nicole C\":20,\"Lottie W\":20,\"Emily\":20},\"warnings\":[]}",
+          "editedAt": "2025-11-07T10:21:17.598Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "310bb971-f210-4ce6-a4b1-666d7eb5b646",
+          "field": "allocation",
+          "previousValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Willow\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Keira\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Lottie B\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Isla\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Lottie B\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Willow\":25,\"Charlotte\":20,\"Isla\":25,\"Keira\":25,\"Lottie B\":25,\"Thea\":20,\"Nicole C\":20,\"Lottie W\":20,\"Emily\":20},\"warnings\":[]}",
+          "newValue": "{\"quarters\":[{\"quarter\":1,\"slots\":[{\"player\":\"Willow\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":2,\"slots\":[{\"player\":\"Keira\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Lottie B\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Emily\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Isla\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Nicole C\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":3,\"slots\":[{\"player\":\"Isla\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie B\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Thea\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Charlotte\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]},{\"quarter\":4,\"slots\":[{\"player\":\"Lottie B\",\"position\":\"GK\",\"minutes\":10},{\"player\":\"Charlotte\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Nicole C\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Keira\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Isla\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"first\"},{\"player\":\"Emily\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Willow\",\"position\":\"DEF\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Lottie W\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"},{\"player\":\"Thea\",\"position\":\"ATT\",\"minutes\":5,\"wave\":\"second\"}]}],\"summary\":{\"Willow\":25,\"Charlotte\":20,\"Isla\":25,\"Lottie W\":20,\"Lottie B\":25,\"Thea\":20,\"Keira\":25,\"Nicole C\":20,\"Emily\":20},\"warnings\":[]}",
+          "editedAt": "2025-11-07T13:57:48.861Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "0689721e-0e00-470a-958d-3be340f457b4",
+          "field": "result.result",
+          "previousValue": "",
+          "newValue": "Win",
+          "editedAt": "2025-11-09T12:43:28.779Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "dae75121-5f8a-4a45-b3dc-e00c2d14fde9",
+          "field": "result.goalsFor",
+          "previousValue": "",
+          "newValue": "23",
+          "editedAt": "2025-11-09T12:43:28.779Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "2a73f3ab-d062-4a81-af7d-739d4d59d0b0",
+          "field": "result.goalsAgainst",
+          "previousValue": "",
+          "newValue": "2",
+          "editedAt": "2025-11-09T12:43:28.779Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "cf7a3728-2327-4934-85a9-4faa9a846530",
+          "field": "result.playerOfMatch",
+          "previousValue": "",
+          "newValue": "Keira",
+          "editedAt": "2025-11-09T12:43:28.779Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "c9359697-d8c0-485f-86a3-a340ada9ede3",
+          "field": "result.honorableMentions",
+          "previousValue": "",
+          "newValue": "Thea",
+          "editedAt": "2025-11-09T12:43:28.779Z",
+          "editedBy": "coach"
+        },
+        {
+          "id": "37540a5f-0236-4389-a2fb-0c29db80e65b",
+          "field": "result.scorers",
+          "previousValue": "",
+          "newValue": "Lottie W, Nicole C, Lottie W, Nicole C, Lottie W, Nicole C, Nicole C, Nicole C, Charlotte, Lottie W, Lottie W, Willow, Nicole C, Willow, Lottie W, Lottie W, Lottie W, Lottie W, Lottie W, Nicole C, Nicole C, Nicole C, Thea",
+          "editedAt": "2025-11-09T12:43:28.779Z",
+          "editedBy": "coach"
+        }
+      ]
+    }
+  ],
+  "playersData": {
+    "players": [
+      {
+        "id": "player_1762216006067_7fe0aca29b2658",
+        "name": "Charlotte",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_e4808fa193ff7",
+        "name": "Emily",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_2cf3b16f27bfc8",
+        "name": "Flo",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_0a59338454d2f",
+        "name": "Isla",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_1ba26e7a11ff88",
+        "name": "Keira",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_8b59cf3545346",
+        "name": "Lottie B",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_1e2db11dacb018",
+        "name": "Lottie W",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_7fcaa5d57d228",
+        "name": "Nicole C",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_1e22f0ff8ba9b",
+        "name": "Nicole H",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_66b2480eb45ba8",
+        "name": "Renee",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_34545c9989b07",
+        "name": "Renne",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-07T09:07:14.920Z",
+        "removedAt": "2025-11-07T09:07:14.920Z"
+      },
+      {
+        "id": "player_1762216006067_be74b9d925086",
+        "name": "Savannah",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_c092f49564a9d",
+        "name": "Thea",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "player_1762216006067_b6967f90e01b38",
+        "name": "Willow",
+        "createdAt": "2025-11-04T00:26:46.067Z",
+        "updatedAt": "2025-11-04T00:26:46.067Z",
+        "removedAt": null
+      },
+      {
+        "id": "707b833a-29af-44de-af9e-2d1a82438879",
+        "name": "Imogen",
+        "createdAt": "2025-11-07T09:24:23.817Z",
+        "updatedAt": "2025-11-07T09:24:23.817Z",
+        "removedAt": null
+      },
+      {
+        "id": "74296c98-3940-4e8b-ae64-ae06bdb6a544",
+        "name": "Test Player 999",
+        "createdAt": "2025-11-11T23:14:34.428Z",
+        "updatedAt": "2025-11-11T23:14:34.428Z",
+        "removedAt": null
+      }
+    ],
+    "audit": [
+      {
+        "id": "245d6522-3759-4277-9cf2-9e4412b70424",
+        "playerId": "player_1762216006067_34545c9989b07",
+        "action": "removed",
+        "actor": "coach",
+        "timestamp": "2025-11-07T09:07:14.920Z",
+        "playerName": "Renne"
+      },
+      {
+        "id": "6b732016-e92b-41f8-b41d-9e590d706526",
+        "playerId": "707b833a-29af-44de-af9e-2d1a82438879",
+        "action": "added",
+        "actor": "coach",
+        "timestamp": "2025-11-07T09:24:23.817Z",
+        "playerName": "Imogen"
+      },
+      {
+        "id": "b65a2114-db5e-40e4-926b-180e3243b4ec",
+        "playerId": "74296c98-3940-4e8b-ae64-ae06bdb6a544",
+        "action": "added",
+        "actor": "coach",
+        "timestamp": "2025-11-11T23:14:34.428Z",
+        "playerName": "Test Player 999"
+      }
+    ]
+  }
+}
