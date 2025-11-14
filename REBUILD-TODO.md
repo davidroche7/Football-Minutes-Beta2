@@ -27,7 +27,7 @@
 - [ ] Ensure `npm run build` runs `tsc --noEmit`, `prisma generate`, and `vite build`.
 
 ## 4. Persistence Rebuild
-- [ ] Finalize Prisma schema aligned with the seed JSON (`matches[]`, `playersData[]`):
+- [x] Finalize Prisma schema aligned with the seed JSON (`matches[]`, `playersData[]`) – see commit 29ffe76:
   - [ ] `Player` table with display name, squad number, preferred positions, removedAt.
   - [ ] `Match` table with opponent, fixtureDate, allocation JSON, result JSON, editHistory reference (if needed).
   - [ ] Consider lookup tables for awards/stats if we want structured queries.
