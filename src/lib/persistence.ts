@@ -584,6 +584,7 @@ const convertFixtureDetailToMatch = (detail: ApiFixtureDetail): MatchRecord => {
     const scorerAwards = detail.awards.filter((award) => award.awardType === 'SCORER');
     const scorers: string[] = [];
     scorerAwards.forEach((award) => {
+      if (!award.playerName) return;
       for (let i = 0; i < award.count; i += 1) {
         scorers.push(award.playerName);
       }
@@ -594,7 +595,10 @@ const convertFixtureDetailToMatch = (detail: ApiFixtureDetail): MatchRecord => {
 
     const hmAwards = detail.awards.filter((award) => award.awardType === 'HONORABLE_MENTION');
     const hmSet = new Set<string>();
-    hmAwards.forEach((award) => hmSet.add(award.playerName));
+    hmAwards.forEach((award) => {
+      if (!award.playerName) return;
+      hmSet.add(award.playerName);
+    });
     if (hmSet.size > 0) {
       matchResult.honorableMentions = Array.from(hmSet);
     }

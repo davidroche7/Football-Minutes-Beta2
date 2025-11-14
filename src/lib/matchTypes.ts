@@ -51,6 +51,7 @@ export interface MatchRecord extends SaveMatchPayload {
     playerIdLookup?: Record<string, string>;
     venueType?: string | null;
     seasonId?: string | null;
+    kickoffTime?: string | null;
     status?: string;
   };
 }
