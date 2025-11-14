@@ -1,5 +1,5 @@
 import { Prisma, MatchStatus, VenueType } from '@prisma/client';
-import { prisma } from '../../server/db/prisma';
+import { prisma } from '../../server/db/prisma.ts';
 
 type MatchWithRelations = Prisma.MatchGetPayload<{
   include: {

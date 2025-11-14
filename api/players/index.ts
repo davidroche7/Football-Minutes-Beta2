@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { prisma } from '../../server/db/prisma';
+import { prisma } from '../../server/db/prisma.ts';
 
 const requireTeamId = (req: VercelRequest): string => {
   const teamId = typeof req.query.teamId === 'string' ? req.query.teamId : null;

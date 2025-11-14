@@ -3,10 +3,10 @@ import listHandler from './fixtures/index';
 import detailHandler from './fixtures/[fixtureId]/index';
 import lineupHandler from './fixtures/[fixtureId]/lineup';
 import resultHandler from './fixtures/[fixtureId]/result';
-import { prisma } from '../server/db/prisma';
+import { prisma } from '../server/db/prisma.ts';
 import { createMockRequest, createMockResponse } from './agents';
 
-vi.mock('../server/db/prisma', () => ({
+vi.mock('../server/db/prisma.ts', () => ({
   prisma: {
     match: {
       findMany: vi.fn(),

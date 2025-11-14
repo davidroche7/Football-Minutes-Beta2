@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { prisma } from '../../server/db/prisma';
+import { prisma } from '../../server/db/prisma.ts';
 import { ensureTeamPlayer, toFixtureSummary, loadMatch } from './_helpers';
 
 const requireTeamId = (req: VercelRequest): string => {

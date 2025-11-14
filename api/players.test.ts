@@ -3,10 +3,10 @@ import { describe, expect, it, vi, beforeEach } from 'vitest';
 import listHandler from './players/index';
 import detailHandler from './players/[playerId]';
 import restoreHandler from './players/[playerId]/restore';
-import { prisma } from '../server/db/prisma';
+import { prisma } from '../server/db/prisma.ts';
 import { createMockRequest, createMockResponse } from './agents';
 
-vi.mock('../server/db/prisma', () => ({
+vi.mock('../server/db/prisma.ts', () => ({
   prisma: {
     player: {
       findMany: vi.fn(),
